@@ -197,7 +197,7 @@ def bf_code(s):
     return output
 
 
-def evecute(s):
+def execute(s):
     try:
         s = pre_process(s)
         codes = code_gen(s)
@@ -280,4 +280,4 @@ def pre_process(s):
 
 if __name__ == "__main__":
     l = "#num(4) . > #num(6) . $add(0,-1) . $mul(0,-1) . $mns(0,-1) . $add(-1,-2) ."
-    evecute(l)
+    execute(l)
