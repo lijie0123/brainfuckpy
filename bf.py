@@ -1,3 +1,7 @@
+"""
+create by lijie at 2018/3/21
+email : lijie0123lj@gmail.com
+"""
 def code_gen(s):
     lst = []
     stk = []
